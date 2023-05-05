@@ -1,6 +1,6 @@
 
 // Place random powerups
-var powerup_count = 25;
+var powerup_count = 50;
 if(instance_number(par_SoftBlock) >= powerup_count) {
     while (powerup_count > 0) {
         var sb = instance_find(

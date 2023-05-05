@@ -16,7 +16,7 @@ function camera_set_view_center(_cam, _center_x, _center_y, _clamp, _bounds) {
     _corner_y = _center_y - _view_height/2;
     
     if (_bounds[0] != -1) {
-        _corner_x = clamp(_corner_x, _bounds[0], _bounds[2] - _view_width/2);
+        _corner_x = clamp(_corner_x, _bounds[0], _bounds[2] - _view_width);
         _corner_y = clamp(_corner_y, _bounds[1], _bounds[3] - _view_height);
     }
     
